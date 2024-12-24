@@ -1,0 +1,56 @@
+:root{
+    --boxblue:rgb(125, 151, 211);
+    }
+@font-face {
+    font-family: pixelfont;
+    src: url(Pixelfont.woff);
+}
+
+body{
+background-color: black;
+color:var(--boxblue);
+
+margin: 25%;
+margin-top: 10%;
+
+}
+
+.main-container{
+border-style:solid;
+border-color: grey;
+background-image: url(fredbear.png);
+background-repeat: no-repeat;
+background-size: cover;
+border-width: 8px;
+height: 600px;
+margin-bottom: 10px;
+}
+
+.menu-div{
+    width: 100;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    column-gap: 10px;
+}
+
+
+.partybutton{
+border-style:solid;
+border-color: var(--boxblue);
+border-width: 8px;
+width: 92.5%;
+height: 40px;
+
+line-height: 0%;
+text-align:center;
+font-family: pixelfont;
+font-size: x-large;
+}
+
+menu{
+    height: 60px;
+    width: 100%;
+}
